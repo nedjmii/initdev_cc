@@ -7,19 +7,19 @@ Mkdir $Mon projet/makefile
 {
     return 0;
 }
-nclude <Mon projet>
+include <Mon projet>
 
 int Mon projet()
 {
-    printf("Expected arguments, please check the help : initdev –help!\n");
+    printf("Expected arguments, please check the help : initdev â€“help!\n");
     return 1;
 }
 
-$ man [-s<section>] <initdev –help>
+$ man [-s<section>] <initdev â€“help>
 $ man man
 $ man ls
-$ man -initdev –help
-\Name{initdev, c'est une application qui crée un nouveau projet}
+$ man -initdev â€“help
+\Name{initdev, c'est une application qui crÃ©e un nouveau projet}
 \syntex{   }  
 \args{   }  
 \author{ Nedjemeddine Lamouri (Nedjmey@gmail.com) } 
